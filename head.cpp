@@ -1,40 +1,45 @@
 /**
  * @file      head.cpp
- * @author    rw-chen (@foxmail.com)
+ * @author    rwchen
  * @brief     template
- * @version   0.1
- * @date 	  2022-11-26 22:05:16
- * @copyright Copyright (c) 2022
+ * @version   1.0
+ * @date      2024-3-1 23:14:33
+ * @copyright Copyright (c) rw-chen 2023
  */
 #include <bits/stdc++.h>
 using namespace std;
 #define fi first
 #define se second
 #define pb push_back
-#define INF 0x3f3f3f3f
-#define SZ(x) ((int)(x.size()))
+#define eb emplace_back
+#define sz(x) ((int)(x.size()))
 #define all(x) x.begin(), x.end()
-#define ios() cin.tie(nullptr)->sync_with_stdio(false)
-using vi = vector<int>;
-using pii = pair<int, int>;
+#define INF 0x3f3f3f3f
+#define fastio() cin.tie(nullptr)->sync_with_stdio(false)
+#define multicase int _; cin >> _; while (_--)
+#define say(x) cout << '\n' << x << '\n';
+#define ac cout << "\n----accepted----\n";
 using ll = long long;
 using ull = unsigned long long;
-using i128 = __int128;
+using vi = vector<int>;
+using vl = vector<ll>;
+using pii = pair<int, int>;
 const ll mod = 1e9 + 7;
 const double eps = 1e-8;
 /************************<head>*************************/
 
-/*********************<begin code>**********************/
+/*********************<begin coding>**********************/
 
 void solve() {
-
+    
 }
 
 int main() {
-	#ifdef LOCAL
-	freopen("in.txt", "r", stdin);
-	#endif 
-	ios();
-	solve();
-	return 0;
+    #ifdef LOCAL
+    freopen("in.txt", "r", stdin);
+    // freopen("out.txt", "w", stdout);
+    #endif 
+    fastio();
+    multicase solve();
+    return 0;
 }
